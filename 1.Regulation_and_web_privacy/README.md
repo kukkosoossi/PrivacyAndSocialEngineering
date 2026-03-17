@@ -50,12 +50,12 @@ You can return to this assignment once you have received your information, but y
 
 After receiving the answer to your data request answer the following questions. Keep your answers concise, focused and **at most** 200 words.
 
-1. Which company did you choose to request your data from and how long did it take to submit that information?
-2. In what format did you receive your data and how many pages/bytes of it were there?
-3. What kind of information was there that you had not directly given yourself? 
-4. Did you understand the meaning of the information?
-5. Do you think that the company collected the least amount of data required to provide the service you needed? 
-6. Were you surprised about something, what? 
+1. Which company did you choose to request your data from and how long did it take to submit that information?   Spotify
+2. In what format did you receive your data and how many pages/bytes of it were there?   Folder with multible JSON files and a readme  and the folder is 3930 kt
+3. What kind of information was there that you had not directly given yourself?    facebookUid i quess didnt find anything else
+4. Did you understand the meaning of the information?    Yes
+5. Do you think that the company collected the least amount of data required to provide the service you needed?  I  think or if not they are hiding it
+6. Were you surprised about something, what?   Not really
 
 </details>
 
