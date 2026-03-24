@@ -38,8 +38,67 @@ These encryptions allow users to quite easily have, for example, self-encrypted 
 "*Arguing that you don't care about the right to privacy because you have nothing to hide is no different from saying you don't care about free speech because you have nothing to say.*" – **Edward Snowden**
 
 ### **Task 1A)** Signing a message 1/4p
-
+pub key:
 Create a gpg keypair, create a message of your choice into a file named 'message.txt', then sign the message and **return both keys here**.
+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
+=wm1k
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA256
+
+"message"
+-----BEGIN PGP SIGNATURE-----
+
+iQHPBAEBCAA5FiEEoWHZNslaQCYzIitsNFLlIuzr+r4FAmnCaR0bFIAAAAAABAAO
+bWFudTIsMi41KzEuMTIsMiwxAAoJEDRS5SLs6/q+QhYL/jRhqEgMakZbkI78O5p/
+Kx67fRDVPK1VDXPufnvqLXl2a0lKvgXLjLbGuZrqC1IkQKm7E8JvDtMRk8Peetl/
+EYvA/vU2Mx1Owt8kZkzGVdP0KU+/teT/YhOwMc/iUNJ30sI4Nz7ohYICo3DNqhl0
+EizYALr51FnQoSwDiLMmp4Uegsdf/MOQ+MYWcbMrjkYpno1YcesTBgpf8JWKmAPt
+JyJfHXdgHt9uIC0XNRUi/HlS8MUN9/fz1KbbDgf1HXFDgeBPrpC7zyBSaPJBC1r5
+rJRNS1Ay4xuKjQR572c+/pbVqY5btJ65zycWm7Bqt0rdfhsY2CVxkW6/Ojeo+Eg5
+KNWYcj5LsUqoEjridiEaryJR/GWEUtxUeAZ2bpyHZG9/hO/T+19ueNqa02KZ5g2x
+/qv/p9vP1+Bm4vtjTHgy4rDflkgADIchBlEyKpqhp92k6MZNSQHZARVGcCyiXen/
+kQLMIVYPm09yfxi/cokJE+B1gUdaQmfzeLX5LCmFvZdxZw==
+=3Ybq
+-----END PGP SIGNATURE-----
+
 
 > [!CAUTION]
 > NEVER upload your actual private keys in the internet and never share them with anyone else. This key is only used to confirm your keys.
@@ -55,14 +114,19 @@ Proceed to 1C.
 ### **Task 1C)** Verifying a message 3/4p
 
 Download the message in the "files" folder and verify the signature on it with the public key in the same folder. **Answer this part with the name of the owner** of said keys.
-
+Pelle Security
 Proceed to 1D.
 
 ### **Task 1D)** Questions 4/4p
 
 * What can be found out about the email you sent, by one who intercepted it in transit?
+name, sender, receiver, size, time, ip address
+
 * Does verifying the the message **guarantee** the senders identity?
+no, there is no indication that the signature belongs to the owner
+
 * Is the process of sending an email this way end-to-end-encrypted(E2EE)?
+i guess so since i used Pelle Security's public key the one who has his private key is the onlyone that can decrypt the message
 
 <details><summary>Help</summary>
 <br>
@@ -148,9 +212,9 @@ Some services (especially image related) strip it off for your own safety, but t
 
 
 **Download [**image2**](images/image2.jpg?raw=true) and extract the following information from it**
-- GPS coordinates
-- Device manufacturer and the model the image has been taken with
-- Date and time when the image has been originally taken
+- GPS coordinates     GPSLatitude: 65.05767059305555   GPSLongitude: 25.46864318833333
+- Device manufacturer and the model the image has been taken with     HUAWEI CLT-L29
+- Date and time when the image has been originally taken    Time 12.15.59 Date 23.8.2022
 
 You can either use the EXIF tool of [CyberChef](https://gchq.github.io/CyberChef/#recipe=Extract_EXIF()) or install [Perl based tool on Arch Linux, for example](https://archlinux.org/packages/extra/any/perl-image-exiftool/).
 
@@ -161,6 +225,7 @@ For reference, here is [**image1**](images/image1.jpg?raw=true) as an example of
 
 Many other file formats also include metadata, but we don't handle them in this exercise.
 
+I dont know where i was supposed to return the image so i put it in images folder as image2_remove.jpg
 ---
 
 ## **Task 3:** Application permissions and trackers
@@ -192,6 +257,27 @@ Name your application and answer the following questions for each application.
 3. Did the applications have permission to access such data they could use or sell for monetary gain? Which permissions and trackers are these?
 4. Describe two attack vectors enabled by these permissions for each application, had an attacker gained access into the application and/or their database.
 5. Compare Android and iOS privacy labels (if it is available on both platforms) to your findings about trackers
+
+Tiktok
+1. 7 trackers 49 permissions on this specific version
+2. 9
+3. yes like READ_CONTACTS. access_media_location and access_coarse_location
+4. CAMERA, can be used to watching you with out knowing, RECORD_AUDIO can be used to listen your everyday life. atleast exodus site doesnt say that attackers would have gained access.
+5. seemed quite similar to what i could find so not much to say about the diffirences.
+
+Whatsapp
+1. 0 trackers and 80 permissions on the version i picked but many versions had 1 tracker listed
+2. 16 
+3. yes, for examble READ_PHONE_NUMBERS that can be sold to sniffing company and then they call me if im in need of sniffing
+4. READ_EXTERNAL_STORAGE can be attacked to dig everyfile in my phone to find information for examble, WRITE_SETTINGS can be used to take some control over the devices, also the same things as tiktok
+5. According to internet on IOS whatsapps privacy label famoysly lists a long list of metadata it collects while exodus shows that on android there is significantly less trackers
+
+Gallery: Photo Gallery, Album
+1. 13 trackers and 41 permissions
+2. 9
+3. yes, they hold contact information and have access to external files 
+4. SYSTEM_ALERT_WINDOW allows attackers to display anything on top of other apps, INTERNET allows attackers to have full network access forexamble to download your files online
+5. IOS guidlines are stricter regarding utility apps such as gallery so they would most likely not allow all unneccessary trackers to be placed
 
 </details>
 
