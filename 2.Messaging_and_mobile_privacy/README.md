@@ -174,12 +174,18 @@ A recent study from Mozilla claims Google's labels are misleading [^9], and also
 
 Consider also encryption options from the "defaults" perspective.
 In what scenarios is end-to-end-encrypted (E2EE) enabled by default? How about E2EE of the metadata?
+in private messages, calls and the data you store in telegram passport atleast telegram uses E2EE.  in telegrams own privacy regulations they dont say anythin about metadata E2EE
 
 By default, for example, WhatsApp encrypts messages in the delivery phase, but backups messages as unencrypted, and recommends backing up the data.
 On iOS devices, chats are also included in iCloud Backups as unencrypted by default [^7].
 What does it mean if law enforcement wants to access your private conversations?
+that they cant access them straightforward but with a warrant they can request the data from cloud providers 
+
 Has end-to-end encryption on messaging helped on preventing access in that case?
+no. E2EE only protects while in transition but when the message is at the end users device it is decrypted back to readable version in clouds
+
 What is the impact of defaults on the general public, which use the service advertised as a "private, secure messenger", but has no idea of the meaning of defaults?
+Users think that everything they send is private and no one can access them but fail to realize that after the message is received it is back to form where it can be accessed
 
 Also, consider the following example scenario to highlight the metadata:
 
@@ -188,19 +194,36 @@ Also, consider the following example scenario to highlight the metadata:
 > User B messages User A from a Windows machine,  Acer Nitro computer, connected to “Best Wi-Fi” with IP address 123.45.67.89 every Thursday at 13:10 PM CET and later around 13:30 PM CET from a Nokia G21 running Android 12 near a Elisa cell tower within a 3-kilometer radius of the Helsinki City location of “The Nice Cafe.”
 
 Without knowing the message content, can you deduce information from User A and User B?
+that user A is at the nice cafe everyweek around the same time and since user B is at computer at 13.10 and 20 minutes later they are closer to the nice cafe so likely they are going  to meet up at the cafe. and since user A is there everyweek they might meet there everyweek. also the devices they use and ip address if Best Wi-Fi
 
 
 **Write an essay of atleast 300 words based on the previous sources and examples, including app comparison and considering also the importance of E2E encrypted metadata.**
+
+The Illusion of Privacy: Apps, Defaults, and Metadata
+Mobile messaging apps heavily market end-to-end encryption (E2EE) and privacy, but platform data collection and default settings often undermine actual user security. Comparing the Apple App Store and Google Play privacy labels of WhatsApp and Telegram reveals deep contrasts: WhatsApp harvests vast troves of data, including location, purchases, and contacts, directly linking them to user identities. Telegram collects less, primarily focusing on contact identifiers. However, research by Mozilla and others warns that these self-reported labels operate on a flawed "honor system." Applications may harvest far more data behind the scenes than they officially disclose, meaning users cannot blindly trust these app store privacy summaries.
+The true vulnerability of these platforms lies in their default settings. E2EE is only truly effective if universally implemented by default. While WhatsApp uses E2EE for messages in transit by default, Telegram does not. Telegram requires users to manually initiate "Secret Chats" to utilize E2EE; otherwise, standard messaging threads are stored directly on Telegram’s servers in a format accessible to the company.
+WhatsApp's transit encryption is frequently bypassed by its own default backup settings. By default, WhatsApp backs up chat histories to Apple’s iCloud or Google Drive in an unencrypted format. therefor if law enforcement wants access to your private conversations, they do not need to break E2EE protocols or intercept messages. They simply ask for warrant to the cloud provider for the unencrypted backup. In these cases, E2EE has done absolutely nothing to prevent third-party access. This creates an illusion for the general public, who share highly sensitive information on advertised "secure" messengers, while being unaware that convenient default cloud backups or server-side storage keep their encryption entirely useless.
+Moreover, focusing solely on message content ignores the massive privacy threat posed by metadata. Consider a scenario where User A messages User B every Thursday at 13:00 CET from an iPhone 14 Pro Max at “The Nice Cafe” in Helsinki. User B responds at 13:10 from a Windows Acer PC on a specific IP address, and later at 13:30 from a Nokia G21 smartphone near a cell tower within three kilometers of the cafe.
+Without reading a single word of the conversation, an observer can deduce a highly detailed narrative. User A uses brand new iphone pro max which indicates a higher number in the bank account and also reveals that they are at the same cafe every Thursday, easy pick for a thief. User B, using cheaper tech is initially at home or an office before moving directly towards User A’s exact location to meet in person. The place they left could be easily tracked via the ip address and mobile phone being elsewhere indicates that the house might be empty for robberies
+This metadata exposes their routines, relationship dynamics, financial profiles, and physical movements. It proves that encrypting the message payload is insufficient if the metadata is left exposed. Until the public understands the critical nature of defaults, cloud backups, and unencrypted metadata, the promise of a completely secure messenger remains close to lying.
+
+
+
+
 
 Note also the use of the same phone number across different services. 
 For example, WhatsApp shares phone numbers and other information with Meta Company outside of the European Union [^6].
 What does this mean in the context of social graphs and the accuracy of possible behaviour and knowledge modelling?
 
 **Write one paragraph of your thoughts.**
+By sharing phone numbers and information it creates a profile about you. If you communicate with someone often in whatsapp meta is probably gonna ask if you want to add him/her as friend in facebook. They also might track locations or browsing habits to give you more personalized adds or map your daily rutines for examble
+
+
 
 Additionally, what privacy risks "last seen" or showing "online status" can include? Imagine a situation, where someone who has the same contact list as you have, automates to process of checking the online status of every contact for every second and finally stores this information for a longer period.
 
 **Write one paragraph of your thoughts.**
+Every one is able to notice when you are online and if you watch long enough you can start building a clear idea of their daily ruotines usch as working or sleeping. If they can watch multible people that are in contact of each other they can also somewhat quess who is talking to who and when. Also they can probably tell when you are at home or out.
 
 ### **Task 2 B)** Image metadata
 
