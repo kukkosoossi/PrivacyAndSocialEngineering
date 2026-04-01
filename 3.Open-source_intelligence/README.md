@@ -38,12 +38,35 @@ Search for ***joe@gmail.com*** on Have I been Pwned, and...
 <br>
 
 In how many <strong>data breaches</strong> and <strong>pastes</strong> can this email be found?
+321 data breaches and 96 paste records
 
 What are the <strong>compromised data types</strong> in the following services? (answer each separately)
 
 - <strong>Bell</strong>
+Email addresses
+Geographic locations
+IP addresses
+Job titles
+Names
+Passwords
+Phone numbers
+Spoken languages
+Survey results
+Usernames
+
+
 - <strong>Drizly</strong>
+Dates of birth
+Device information
+Email addresses
+IP addresses
+Names
+Passwords
+Phone numbers
+Physical addresses
+
 - <strong>Robinhood</strong>
+Email addresses
 
 </details>
 
@@ -63,24 +86,29 @@ On the other hand, some other services distribute all breach data content, as pa
 As the information is highly valuable for some entities, these entities will pay for the data, and platform providers will run the services until law enforcement will shut them down.
 
 1. **Find at least three of these paid services and list them.**
-
+DeHashed, snusbase, 
 *Consider the problems of breach data as follows*. 
 
 Would it be better to build platforms which make **all** breach data searchable for everyone, or identified persons? Or instead, try to remove it from the internet? Which might be impossible.
+I mean it would be better if you ciyld remove all your unwanted data but yea, i dont think it would be better to have all breach data searchable because i think it would popularise stalking from the internet or lead to problems forexamble if everyone can easily search your ip address and track your locatin
+
 
 Eventually, if the breach happens, the information is obtainable with or without money in the end.
 
 Would it be better for the end user to see what has been leaked precisely?
 Or would it be better that **maybe** the data has been removed from the internet, and there is no verification of what this data is?
+yes i would say so since you can then change emails or passwords etc and wouldnt need to be live in disinformation
 
 In many cases, the breached company cannot always say what data has been lost, or they are unwilling to do it, or downplays the impact.
 
 Could it change the way we think about privacy, and how we use services and prioritise security if the breach data is public?
+probably yes, i believe everyone would think more before forexamble putting your phone number in websites or apps etc. 
 
 Or do we make a compromise, and try to remove only the most damaging breaches from the internet?
+why not try to remove the most damaging breaches and at the same time work on educating users to not put information to untrusted places
 
 2. **Write a short answer (150-200 words) of your thoughts. There might not be a correct or incorrect answer, but you need to make arguments.**
-
+I think that putting a bigger breach out in the news to the publics eye with concrete evidence that the sites know a lot more about you than you would think would make some people who havent given it a thought yet new views. I believe that the vastaamo data breach did have big impact on finnish population because of the size of the breach so something similar in the world could get some gears rolling and hopefully make some changes on how companies are allowed to ask for information. Maybe the laws could deny useless information being gathered from the public so even the people who dont "care" about internet privacy wouldnt necessery leak out so much. But in the end its still up to the users on how much they wanna share spreading information about privacy should be the main goal about data safety and privacy in my opinion.
 ---
 
 ## **Task 2:** Hardcoded Passwords
@@ -88,11 +116,13 @@ Or do we make a compromise, and try to remove only the most damaging breaches fr
 There have been a few cases of compromised systems due to hardcoded passwords and API keys accidentally ending up in production code. [Google offers some advice on how to handle such information more securely](https://cloud.google.com/docs/authentication/api-keys)
 
 1.  Use Hex-Rays decompiler via [Dogbolt](https://dogbolt.org/) to check out if you can find a **plaintext hardcoded password** from the provided compiled C code file called **secretKey**. 
+Vulture35Vulture
 
 2. As a second part, there is a secret **Activation Key** for you to figure out, which has validation arguments that can be seen with some closer inspection of the decompiler.
+has to be greater than 59347700 and less or equal than 59347970 and the sum of digits must be 44
 
 3. As a third and last part, there is a **Super secret password** that is hardcoded but has been "encrypted" with a secret hash.
-
+4dc9332ca3bbc59c880fd2cbe7ec1b7ca171cc82
 
 In case the site is under maintenance, there is a HexRaysOutput file, which has the full output of the decompilation process.
 Use an editor that can understand `C++` to inspect the file with proper highlighting.
@@ -105,10 +135,10 @@ After completing the task, you have five items to return.
 <summary><strong>What to return:</strong></summary>
 <br>
 
-Return a valid <strong>Password</strong> and  
-<strong>One valid activation key</strong> and  
-The <strong>instructions</strong> on how to create the rest of the activation keys, since there are multiple valid ones.  
-Also, return the <strong>plaintext version of the super secret password</strong> and <strong>the name of the hash function</strong> it was created with.   
+Return a valid <strong>Password   Vulture35Vulture</strong> and  
+<strong>One valid activation key   59347718 </strong> and  
+The <strong>instructions</strong> on how to create the rest of the activation keys, since there are multiple valid ones.   first 5 numbers must be 59347 and the sum of the rest 3 numbers must be 16 and the order doesnt matter
+Also, return the <strong>plaintext version of the super secret password   Vulture99</strong> and <strong>the name of the hash function   sha1 </strong> it was created with.   
 You can use for example https://crackstation.net/ to decode the password.
 
 </details>
